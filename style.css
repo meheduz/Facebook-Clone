@@ -45,11 +45,6 @@ body {
     position: relative;
 }
 
-.fb-profile-info h1 {
-    margin: 0;
-    font-size: 28px;
-}
-
 .fb-profile-info p {
     color: #555;
     margin: 8px 0 0 0;
@@ -68,7 +63,7 @@ body {
     justify-content: center;
     gap: 6px;
     padding: 10px 16px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     border: none;
     border-radius: 6px;
@@ -106,7 +101,7 @@ body {
 
 /* About Section */
 .fb-about {
-    padding: 20px 30px;
+    padding: 20px 25px;
     border-top: 1px solid #ddd;
     background-color: #fff;
 }
@@ -122,7 +117,7 @@ body {
     align-items: flex-start;
     gap: 10px;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 18px;
     color: #050505;
     line-height: 1.4;
 }
@@ -145,10 +140,12 @@ body {
 
 /* Posts Section */
 .fb-posts {
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 20px 30px;
     border-top: 5px solid #eee;
 }
-
+.user-posts {
+    border-bottom: 5px solid #eee;
+}
 .fb-posts h2 {
     font-size: 20px;
     margin-top: 8px;
@@ -165,7 +162,7 @@ body {
 
 .fb-time {
     color: #888;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .fb-earth {
@@ -173,6 +170,7 @@ body {
     font-size: 1em;
     vertical-align: middle;
 }
+
 
 .fb-actions {
     display: flex;
