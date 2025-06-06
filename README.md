@@ -13,7 +13,7 @@ A simple Facebook UI clone using only HTML and CSS.
    ```bash
    git clone https://github.com/meheduz/Facebook-Clone.git
    ```
-2. Open `fb.html` in your browser.
+2. Open `index.html` in your browser.
 
 ## License
 
